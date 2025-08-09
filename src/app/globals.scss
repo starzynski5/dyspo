@@ -1,1 +1,13 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+*{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+body {
+  background-color: #F9FAFB;
+}
+.navbar-custom{
+  background-color: #111827;
+  color: #F9FAFB;
+}
