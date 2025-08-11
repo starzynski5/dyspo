@@ -8,7 +8,7 @@ const Dashboard = () => {
     return (
         <div className='container-fluid'>
             <div className='row'>
-                <div className='col-2 bg-dark p-4 sidebar'>
+                <div className='col-4 col-md-3 bg-dark p-4 sidebar'>
                     <Typography variant='h4' color='text.primary'>Moje organizacje:</Typography>
                     <br />
 
@@ -17,7 +17,7 @@ const Dashboard = () => {
                     <Link href="/org/hgfd6j3n53"><Typography variant='h5' color='text.primary'>Rossmann Elbląg</Typography></Link>
                 </div>
 
-                <div className='col-10'>
+                <div className='col-8 col-md-9'>
                     dashboard tbd
                 </div>
             </div>
